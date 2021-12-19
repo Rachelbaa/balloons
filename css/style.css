@@ -1,0 +1,28 @@
+header {
+    text-align: center;
+}
+
+div {
+    position: absolute;
+    width: 144px;
+    height: 130px; 
+}
+
+img {
+    width: 144px;
+    height: 130px;  
+}
+
+.baloon0 {
+    left: 15px;
+    bottom:-120px;
+}
+
+.fade-out {
+    animation: fadeOut 0.3s forwards;
+}
+
+@keyframes fadeOut {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
